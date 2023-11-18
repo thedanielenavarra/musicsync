@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <select name="song" id="song">
+            <option value="black_dog">black_dog</option>
+            <option value="surfin_usa">surfin_usa</option>
+            <option value="obladi_oblada">obladi_oblada</option>
+        </select>
+        <button id="play" onclick="playsong($('#song').val())">Play</button>
+        <audio id="player"></audio>
+        <div class="graphic">
+            <p>
+
+            </p>
+        </div>
+    </body>
+</html>
